@@ -1,0 +1,29 @@
+Git Commands
+
+1)TO MAKE DIRECTORY ----> mkdir
+2)TO CHANGE DIRECTORY ----> cd directoryName
+3)TO MAKE A FILE-----> touch filename.extensionname
+4)TO EDIT AN FILE----->nano filename.extensionname
+5)To preview file---->cat filename.extendionname
+6)To add file to loalrepo ------>add filename.extension
+  To add all file-----> add .
+  To add specific extension file---> add *.extension name
+7) to commit changes  for single file----> commit filename.extension -m""
+     commit all files at once ----->commit -m ""
+8)to add and commit once  commit -am "" <<<<<the file shoud be commited atleast once>>>>>>
+9)user list ---> git config ---global user.name
+local---->git config user.name
+10)display statging files ls -files
+
+11)git log---->logs
+12)list all files --->ls
+13)list hidden files ls -a
+14) logs in one line---- git log --oneline
+   git log --author=authorname --oneline
+   git log --after yyyy-mm-date  --oneline
+   git log --max-count n --oneline
+
+ To push the code in repository
+15)To check if remote repository already exist--->git remote -v
+16)To add remote ropository---->git remote add alias repolink
+17)To push the final code in repository----->git push alias branchname
